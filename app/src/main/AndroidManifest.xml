@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.converter">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Converter">
+        <activity
+            android:name=".temperatura.Kelvin"
+            android:parentActivityName=".temperatura.Temperatura">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".temperatura.Temperatura" />
+        </activity>
+        <activity
+            android:name=".temperatura.Fahrenheit"
+            android:parentActivityName=".temperatura.Temperatura">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".temperatura.Temperatura" />
+        </activity>
+        <activity
+            android:name=".temperatura.Celsius"
+            android:parentActivityName=".temperatura.Temperatura">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".temperatura.Temperatura" />
+        </activity>
+        <activity
+            android:name=".divisa.Yen"
+            android:parentActivityName=".divisa.Divisa">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".divisa.Divisa" />
+        </activity>
+        <activity
+            android:name=".divisa.Dolar"
+            android:parentActivityName=".divisa.Divisa">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".divisa.Divisa" />
+        </activity>
+        <activity
+            android:name=".divisa.Euro"
+            android:parentActivityName=".divisa.Divisa">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".divisa.Divisa" />
+        </activity>
+        <activity
+            android:name=".divisa.LibraEsterlina"
+            android:parentActivityName=".divisa.Divisa">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".divisa.Divisa" />
+        </activity>
+        <activity
+            android:name=".longitud.Pie"
+            android:parentActivityName=".longitud.Longitud">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".longitud.Longitud" />
+        </activity>
+        <activity
+            android:name=".longitud.Pulgada"
+            android:parentActivityName=".longitud.Longitud">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".longitud.Longitud" />
+        </activity>
+        <activity
+            android:name=".longitud.MillaNautica"
+            android:parentActivityName=".longitud.Longitud">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".longitud.Longitud" />
+        </activity>
+        <activity
+            android:name=".longitud.Yarda"
+            android:parentActivityName=".longitud.Longitud">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".longitud.Longitud" />
+        </activity>
+        <activity
+            android:name=".longitud.Milla"
+            android:parentActivityName=".longitud.Longitud">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".longitud.Longitud" />
+        </activity>
+        <activity
+            android:name=".longitud.Metro"
+            android:parentActivityName=".longitud.Longitud">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".longitud.Longitud" />
+        </activity>
+        <activity
+            android:name=".longitud.Kilometro"
+            android:parentActivityName=".longitud.Longitud">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".longitud.Longitud" />
+        </activity>
+        <activity
+            android:name=".masa.Quilate"
+            android:parentActivityName=".masa.Masa">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".masa.Masa" />
+        </activity>
+        <activity
+            android:name=".masa.Libra"
+            android:parentActivityName=".masa.Masa">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".masa.Masa" />
+        </activity>
+        <activity
+            android:name=".masa.Gramo"
+            android:parentActivityName=".masa.Masa">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".masa.Masa" />
+        </activity>
+        <activity
+            android:name=".masa.Kilogramo"
+            android:parentActivityName=".masa.Masa">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".masa.Masa" />
+        </activity>
+        <activity
+            android:name=".temperatura.Temperatura"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".tiempo.Tiempo"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".divisa.Divisa"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".longitud.Longitud"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".masa.Masa"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

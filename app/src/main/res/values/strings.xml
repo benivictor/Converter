@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="Inicio">Seleccione categoria</string>
+    <string name="masa">MASA</string>
+    <string name="tiempo">TIEMPO</string>
+    <string name="longitud">LONGITUD</string>
+    <string name="divisa">DIVISA</string>
+    <string name="temperatura">TEMPERATURA</string>
+    <string name="Kilogramo">Kilogramos</string>
+    <string name="Libra">Libras</string>
+    <string name="Quilate">Quilates</string>
+    <string name="Gramo">Gramos</string>
+    <string name="valor">ENTER VALUE</string>
+</resources>
